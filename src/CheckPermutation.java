@@ -3,6 +3,10 @@ import java.util.HashMap;
 
 public class CheckPermutation {
     public boolean ifInputsPermutationOfEachOther(String s1, String s2){
+
+        if((s1==null) || (s2 == null)){
+            throw new IllegalArgumentException();
+        }
         if(s1.length() != s2.length()){
             return false;
         }
@@ -40,10 +44,21 @@ public class CheckPermutation {
 
     public static void main(String[] args){
         CheckPermutation obj1 = new CheckPermutation();
+
+
         System.out.println(obj1.ifInputsPermutationOfEachOther("abcd","dbca"));
         System.out.println(obj1.ifInputsPermutationOfEachOther("abcda","dbca"));
         System.out.println(obj1.ifInputsPermutationOfEachOther("abc0","0bca"));
         System.out.println(obj1.ifInputsPermutationOfEachOther("abcde","fbcae"));
+        System.out.println(obj1.ifInputsPermutationOfEachOther("aacde","adcea"));
+        System.out.println(obj1.ifInputsPermutationOfEachOther("aacde+","@adcea"));
+
+
+        try{
+            System.out.println(obj1.ifInputsPermutationOfEachOther(null,"@adcea"));
+        }catch(Exception e){
+            System.out.println("Illegal argument exception: "+e);
+        }
     }
 
 }
