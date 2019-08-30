@@ -1,30 +1,39 @@
 public class Urlify {
 
     public String toUrlifyString(String s1, int length){
-        if(s1 == null || length < 0){
+        if(s1 == null || length <= 0){
             throw new IllegalArgumentException();
         }
-        StringBuilder sb = new StringBuilder();
         char[] array = s1.toCharArray();
-        for(int i=0;i<length;i++){
-            if(array[i] == ' ' ){
-                sb.append("%20");
-            }else{
-                sb.append(array[i]);
+        int value = s1.length() - length;
+        int maxCounter = value/2;
+        int count = 0;
+        for(int i=array.length-1;i>=0;){
+            if(array[i-value] == ' ' ){
+                array[i]='0';
+                array[i-1]='2';
+                array[i-2]='%';
+                i=i-3;
+                count++;
+                value = value-2;
+            }else if(array[i-value] != ' '){
+                array[i] = array[i-value];
+                i--;
+            }
+            if(count == maxCounter){
+               break;
             }
         }
-        System.out.println(sb.toString());
-
-        return sb.toString();
+        String result = new String(array);
+        return result;
     }
 
     public static void main(String[] args){
 
         Urlify obj1 = new Urlify();
-        System.out.println(obj1.toUrlifyString("abc rgf     ",7));
-        System.out.println(obj1.toUrlifyString("abc     ",3));
-        System.out.println(obj1.toUrlifyString(" abc rgf     ",8));
-        System.out.println(obj1.toUrlifyString("     ",0));
-        System.out.println(obj1.toUrlifyString("ab0 0rgf u67     ",12));
+        System.out.println(obj1.toUrlifyString("abc rgf  ",7));
+        System.out.println(obj1.toUrlifyString("abc",3));
+        System.out.println(obj1.toUrlifyString("abc rgf cd    ",10));
+        System.out.println(obj1.toUrlifyString(" ab0 0rgf u67      ",13));
     }
 }
