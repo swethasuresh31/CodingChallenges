@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09c5f5ca-1109-44bd-af25-79dbdf025c32" name="Default Changelist" comment="check if one string is a permutation of the other">
-      <change afterPath="$PROJECT_DIR$/src/StringCompression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Urlify.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Urlify.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OneAway.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OneAway.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,11 +34,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Urlify.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
               <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/OneAway.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="383">
+              <caret line="44" column="59" lean-forward="true" selection-start-line="44" selection-start-column="59" selection-end-line="44" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -83,6 +90,7 @@
         <option value="$PROJECT_DIR$/src/PalindromePermutation.java" />
         <option value="$PROJECT_DIR$/src/StringCompression.java" />
         <option value="$PROJECT_DIR$/src/Urlify.java" />
+        <option value="$PROJECT_DIR$/src/OneAway.java" />
       </list>
     </option>
   </component>
@@ -118,7 +126,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567206535908" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567208706262" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RunDashboard">
@@ -133,7 +141,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Urlify">
+  <component name="RunManager" selected="Application.OneAway">
     <configuration name="CheckPermutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CheckPermutation" />
       <module name="MiniProjects" />
@@ -141,8 +149,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindIfStringIsUnique" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FindIfStringIsUnique" />
+    <configuration name="OneAway" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OneAway" />
       <module name="MiniProjects" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -171,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OneAway" />
         <item itemvalue="Application.Urlify" />
         <item itemvalue="Application.StringCompression" />
         <item itemvalue="Application.PalindromePermutation" />
         <item itemvalue="Application.CheckPermutation" />
-        <item itemvalue="Application.FindIfStringIsUnique" />
       </list>
     </recent_temporary>
   </component>
@@ -295,6 +303,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OneAway.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="44" column="59" lean-forward="true" selection-start-line="44" selection-start-column="59" selection-end-line="44" selection-end-column="59" />
         </state>
       </provider>
     </entry>
