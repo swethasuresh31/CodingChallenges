@@ -40,7 +40,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ImageRotation">
+  <component name="RunManager" selected="Application.CheckStringRotation">
+    <configuration name="CheckStringRotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CheckStringRotation" />
+      <module name="MiniProjects" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ImageRotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ImageRotation" />
       <module name="MiniProjects" />
@@ -48,22 +55,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MatrixRowColZero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MatrixRowColZero" />
+      <module name="MiniProjects" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OneAway" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OneAway" />
-      <module name="MiniProjects" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PalindromePermutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PalindromePermutation" />
-      <module name="MiniProjects" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringCompression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StringCompression" />
       <module name="MiniProjects" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -78,11 +78,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CheckStringRotation" />
+        <item itemvalue="Application.MatrixRowColZero" />
         <item itemvalue="Application.ImageRotation" />
         <item itemvalue="Application.OneAway" />
         <item itemvalue="Application.Urlify" />
-        <item itemvalue="Application.StringCompression" />
-        <item itemvalue="Application.PalindromePermutation" />
       </list>
     </recent_temporary>
   </component>
@@ -98,7 +98,7 @@
       <updated>1566845455472</updated>
       <workItem from="1567466179347" duration="714000" />
       <workItem from="1567472892685" duration="2000" />
-      <workItem from="1567627477123" duration="1734000" />
+      <workItem from="1567627477123" duration="3099000" />
     </task>
     <task id="LOCAL-00001" summary="find if unique characters in string">
       <created>1566846006944</created>
